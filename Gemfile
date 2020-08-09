@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3'
+gem 'jekyll', '~> 4'
 gem 'json'
 
 group :jekyll_plugins do
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', '~> 3.0'
 end
 
 group :test do
